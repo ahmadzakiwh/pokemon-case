@@ -83,3 +83,42 @@
     font-weight: 700;
     font-size: 14px;
 }
+.inputModal {
+    width: 48px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.15);
+    border: 1px solid #CCCCCC;
+}
+.btnSimpan {
+    background-color: #058992;
+    color: #ffffff;
+    padding: 6px 14px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #006A7A;
+    box-shadow: 0px 1px 2px rgba(51, 51, 51, 0.15);
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+}
+.btnSimpan:hover {
+    box-shadow: 0px 1px 2px rgba(51, 51, 51, 0.5);
+    background-color: #006168;
+}
+.btnBatal {
+    background-color: #ffffff;
+    color: #058992;
+    padding: 6px 14px;
+    text-align: center;
+    border-radius: 4px;
+    border-color: #058992;
+    border: 1px solid #006A7A;
+    box-shadow: 0px 1px 2px rgba(51, 51, 51, 0.15);
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+}
+.btnBatal:hover {
+    box-shadow: 0px 1px 2px rgba(51, 51, 51, 0.5);
+    color: #006168;
+}

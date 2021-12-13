@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import Stok from "../pages/Stok";
@@ -10,7 +10,7 @@ function Routess() {
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={<Stok/>} />
-                <Route path="/detail" element={<Detail/>}/>
+                <Route path="/detail/:name" element={<Detail/>}/>
                 <Route path="/confirm" element={<Confirm/>}/>
             </Routes>
         </BrowserRouter>

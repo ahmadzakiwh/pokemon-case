@@ -64,7 +64,7 @@ function Confirm() {
                     <div className="row">
                         <div className="col">
                             <p className="rubik16px700">Catatan</p>
-                            <textarea class="form-control" ></textarea>
+                            <textarea className="form-control" ></textarea>
                         </div>
                     </div>
                     <div className="d-flex flex-row justify-content-end align-items-center mt-4">

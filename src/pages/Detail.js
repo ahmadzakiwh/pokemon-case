@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
 import Modal from "@mui/material/Modal"
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import "../styles/detail.css";
 import Back from "../image/back.png";
 
@@ -38,7 +37,7 @@ function Detail() {
                         </div>
                     </div>
                 </a>
-                    <h1 className="title">Pikachu</h1>
+                    <h1 className="title">Pokemon</h1>
                 </div>
                 <div className="col">
                     <button onClick={handleOpen} className="btnUpdate" type="button">Update stok</button>
@@ -105,14 +104,14 @@ function Detail() {
                                             <tr>
                                                 <th className="nunito14px700" scope="row">Pcs</th>
                                                 <th className="nunito14pxright">
-                                                    1 x <input></input> =
+                                                    1 x <input className="inputModal" type="text"></input> =
                                                 </th>
                                                 <th className="nunito14pxright">0</th>
                                             </tr>
                                             <tr>
                                                 <th className="nunito14px700" scope="row">Lusin</th>
                                                 <th className="nunito14pxright">
-                                                    12 x <input></input> =
+                                                    12 x <input className="inputModal" type="text"></input> =
                                                 </th>
                                                 <th className="nunito14pxright">0</th>
                                             </tr>
@@ -130,8 +129,8 @@ function Detail() {
                                 </div>
                             </div>
                             <div className="d-flex flex-row justify-content-end align-items-center mt-4">
-                                <Button component={Link} to="/confirm" className="me-2" variant="contained">Simpan</Button>
-                                <Button onClick={handleClose} variant="outlined">Batal</Button>
+                                <button component={Link} to="/confirm" className="btnSimpan me-2">Simpan</button>
+                                <button onClick={handleClose} className="btnBatal">Batal</button>
                             </div>
                         </div>
                     </div>
