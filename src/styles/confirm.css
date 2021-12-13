@@ -1,0 +1,55 @@
+.title {
+    font-weight: 700;
+    font-family: "Rubik";
+    font-size: 40px;
+}
+.rubik14px400 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.rubik32px400 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333;
+}
+.rubik20px400 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+}
+.txtHead {
+    font-family: "Rubik";
+    font-size: 500;
+    font-size: 14px;
+}
+.thRight {
+    text-align: end;
+}
+.nunito14px700color {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    color: #006A7A;
+}
+.nunito14px700 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+.nunito14px {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.nunito14pxright {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: end;
+}
+.rubik16px700 {
+    font-weight: 700;
+    font-family: "Rubik";
+    font-size: 16px;
+}

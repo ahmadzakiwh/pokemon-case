@@ -1,0 +1,25 @@
+.title {
+    font-weight: 700;
+    font-family: "Rubik";
+    font-size: 40px;
+}
+.search {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    max-width: 500px;
+}
+.txtHead {
+    font-family: "Rubik";
+    font-size: 500;
+    border-bottom: "2px solid #0000ff";
+}
+.txtBody {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+}
+.txtBody a {
+    text-decoration: none;
+}
+.thRight {
+    text-align: end;
+}

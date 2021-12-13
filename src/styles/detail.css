@@ -1,0 +1,85 @@
+.back {
+    width: 16px;
+    text-decoration: none;
+}
+.title {
+    font-weight: 700;
+    font-family: "Rubik";
+    font-size: 40px;
+}
+.btnUpdate {
+    padding: 6px 8px;
+    color: #006A7A;
+    border-radius: 4px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #F7F7F7;
+}
+.sisaStok {
+    font-family: "Rubik";
+    font-weight: 400;
+}
+.rubik14px {
+    font-size: 14px;
+    color: #333333;
+}
+.rubik32px {
+    font-size: 32px;
+}
+.rubik20px {
+    font-weight: 700;
+    font-family: "Rubik";
+    font-size: 20px;
+}
+.nunito14px {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.nunito14pxright {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: end;
+}
+.nunito14px700 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+.nunito12px {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+.thRight {
+    text-align: end;
+}
+.txtHead {
+    font-family: "Rubik";
+    font-size: 500;
+}
+.txtBody {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+}
+.kegiatan {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 14px;
+    color: #006A7A;
+}
+.jmlh {
+    text-align: end;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #219653;
+}
+.stok {
+    text-align: end;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 14px;
+}
