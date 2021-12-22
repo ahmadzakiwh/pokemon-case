@@ -68,7 +68,7 @@ function Confirm() {
                         </div>
                     </div>
                     <div className="d-flex flex-row justify-content-end align-items-center mt-4">
-                        <Button component={Link} to="/detail" className="me-2" variant="contained">Simpan</Button>
+                        <Link to="/"><Button className="me-2" variant="contained">Simpan</Button></Link>
                         <Button variant="outlined">Batal</Button>
                     </div>
                 </div>

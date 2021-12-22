@@ -129,7 +129,7 @@ function Detail() {
                                 </div>
                             </div>
                             <div className="d-flex flex-row justify-content-end align-items-center mt-4">
-                                <button component={Link} to="/confirm" className="btnSimpan me-2">Simpan</button>
+                                <Link to="/confirm"><button className="btnSimpan me-2">Simpan</button></Link>
                                 <button onClick={handleClose} className="btnBatal">Batal</button>
                             </div>
                         </div>
